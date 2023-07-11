@@ -53,3 +53,55 @@ header{
     line-height: 30px;
     margin: auto;
 }
+/* adustment of flowers pic */
+.example-flowers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    
+}
+.flower{
+    width: 464px;
+    height:538px ;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: auto;
+}
+.flower-name{
+    color: #454545;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+.flowers{
+    margin-left:15% ;
+    margin-top: 3%;
+}
+.flower1{
+     margin-left:15% ;
+    margin-top: 12%;
+}
+/* start icon section */
+.icons-section{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon-pera{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+.icon-img{
+    margin-left: 30%;
+}
+/* end icon section */
+/* start discount offer section */
