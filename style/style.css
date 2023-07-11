@@ -2,7 +2,7 @@
 header{
     display: flex;
     width:100% ;
-    height: 850px;
+    height: 80%;
     background: rgba(231, 81, 114, 0.2);
 }
 .header-heading{
@@ -13,14 +13,14 @@ header{
 .hader-paragraph{
     font-size: 18px;
     padding-left:240px ;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: rgba(39, 39, 39, 0.60);
 }
 .shpo-now-btn{
     margin-left: 240px;
     padding: 20px 45px;
     color: #FFF;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -29,3 +29,27 @@ header{
     border: none;
 }
 /* header end */
+/* start body section */
+.body-heading{
+    margin-top:8% ;
+    color: #414141;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.body-paragraph{
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto;
+}
